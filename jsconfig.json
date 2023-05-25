@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "checkJs": false,
+    "skipLibCheck": true,
+  },
+  "baseUrl": "./",
+  "paths": {
+    "src/*": ["src/*"]
+  },
+  "include": [
+    "src"
+  ]
+}
